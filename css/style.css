@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&family=Caveat+Brush&family=Dosis:wght@200&family=Montserrat:wght@500&family=Oswald:wght@300;400;500&family=Shadows+Into+Light&family=Texturina:wght@100&display=swap");
+body {
+  margin: 0;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+/* ***********************************HEADER********************************* */
+header nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(207, 207, 207);
+  height: 120px;
+}
+
+nav .titre_logo {
+  width: 350px;
+  color: aliceblue;
+  text-align: center;
+  margin-left: 100px;
+}
+
+nav .titre_logo .logo {
+  width: 100%;
+  height: 85px;
+  background-color: black;
+}
+
+nav .titre_logo .titre {
+  background-color: coral;
+  height: 20px;
+  width: 100%;
+}
+nav ul {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  height: 75px;
+  width: 700px;
+  margin-top: 45px;
+  justify-content: space-evenly;
+}
+
+nav ul li {
+  padding: 10px;
+  display: inline-block;
+  font-size: 1.2rem;
+  margin-right: 35px;
+  border: 1px solid white;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+nav ul li:hover {
+  background-color: tomato;
+  border: 3px solid grey;
+}
+nav ul li a:hover {
+  color: black;
+}
+
+/******************************** MAIN ************************************/
+main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#banniere {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+.banniere {
+  width: 100%;
+}
+
+.banniere .photo {
+  width: 100%;
+  background-color: tomato;
+  height: 250px;
+}
+.cotes {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.cotes aside {
+  width: 20%;
+}
+.cotes .gauche {
+  margin-left: 25px;
+}
+
+.cotes .droite {
+  margin-right: 25px;
+}
+.cotes aside .photo {
+  width: 100%;
+  height: 900px;
+  background-color: rgb(207, 207, 207);
+}
+
+.cotes .container {
+  width: 80%;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.container .img1 {
+  width: 30%;
+  height: 200px;
+  background-color: black;
+  margin: 10px;
+  margin-top: -200px;
+}
+
+.container2 {
+  margin-top: 5em;
+  height: 50em;
+  width: 100%;
+  background-color: rgb(236, 236, 236);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container2 .img2 {
+  height: 600px;
+  width: 600px;
+  border-radius: 50%;
+  background-color: black;
+  margin-top: -20em;
+}
+
+.container2 .parag2 {
+  width: 70%;
+  margin-bottom: 100px;
+}
+/* 
+.container3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(207, 207, 207);
+  height: 500px;
+  width: 100%;
+  margin-top: 12em;
+  text-align: center;
+}
+.container3 .parag3 {
+  width: 60%;
+  color: rgb(0, 0, 0);
+} */
+/* ******************************************************FOOTER********************************************************* */
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: tomato;
+  height: 18em;
+  text-align: center;
+  align-items: center;
+}
+footer ul li {
+  list-style: none;
+}
+footer ul li a {
+  color: aliceblue;
+  text-decoration: none;
+}
+footer .logoFooter {
+  height: 200px;
+  width: 300px;
+  background-color: rgb(207, 207, 207);
+}
+
+footer .reseausociaux i {
+  display: flex;
+  padding: 15px;
+  font-size: 1.5em;
+}
